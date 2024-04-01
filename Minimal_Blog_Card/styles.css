@@ -1,0 +1,91 @@
+body {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 500, 600, 700;
+  font-style: normal;
+  background-color: #fafaf9;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-img-top {
+  margin-bottom: -11px;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.design {
+  background-color: #e6d6fc;
+  color: #883ae1;
+  text-decoration: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.card-title {
+  margin-top: 16px !important;
+  font-weight: 700;
+  margin-bottom: 6px !important;
+  color: #20293a;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: #6c727f;
+}
+
+.name {
+  margin-bottom: 0px;
+  font-size: 0.75rem;
+  color: #6c727f;
+}
+
+@media screen and (max-width: 640px) {
+  main {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card-body {
+    padding: 8px; /* Adjust padding for smaller screens */
+  }
+
+  .design {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+  }
+
+  .card-title {
+    margin-top: 8px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .card-text {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    margin-bottom: 12px;
+  }
+
+  .name {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    margin-bottom: 8px;
+  }
+}
